@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class 8 Lab</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+</head>
+<body>
+    <h1>My Schedule</h1>
+<form id="schedule">
+    <fieldset>
+        <legend>Choose a day to view schedule</legend>
+
+        <input type="radio" id="monday" name="day" value="1">
+        <label for="monday">Monday</label><br>
+
+        <input type="radio" id="tuesday" name="day" value="2">
+        <label for="tuesday">Tuesday</label><br>
+
+        <input type="radio" id="wednesday" name="day" value="3">
+        <label for="wednesday">Wednesday</label><br>
+
+        <input type="radio" id="thursday" name="day" value="4">
+        <label for="thursday">Thursday</label><br>
+
+        <input type="radio" id="friday" name="day" value="5">
+        <label for="friday">Friday</label> <br>
+
+        <input type="radio" id="saturday" name="day" value="6">
+        <label for="saturday">Saturday</label><br>
+
+        <input type="radio" id="sunday" name="day" value="7">
+        <label for="sunday">Sunday</label><br>
+    </fieldset> <br>
+
+    <button>Submit</button>
+    <p id="scheduleEachDay"></p>
+</form>
+</body>
+</html>
